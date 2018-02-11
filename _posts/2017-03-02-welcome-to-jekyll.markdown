@@ -28,4 +28,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 ---
 Other useful Jekyll customization links:
-[Suppress Blog Footer](https://stackoverflow.com/questions/43670690/suppress-blog-footer-in-jekyll-kramdown)
+* [Suppress Blog Footer](https://stackoverflow.com/questions/43670690/suppress-blog-footer-in-jekyll-kramdown)
