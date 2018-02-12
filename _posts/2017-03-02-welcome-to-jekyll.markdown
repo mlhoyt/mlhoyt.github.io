@@ -28,5 +28,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 ---
 Other useful Jekyll customization links:
-* [Suppress Blog Footer](https://stackoverflow.com/questions/43670690/suppress-blog-footer-in-jekyll-kramdown)
+* [Build Blog with Jekyll and Github Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+* [Running Jekyll Locally](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 * [https://github.com/jekyll/minima](https://github.com/jekyll/minima)
+* [Suppress Blog Footer](https://stackoverflow.com/questions/43670690/suppress-blog-footer-in-jekyll-kramdown)
