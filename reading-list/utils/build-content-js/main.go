@@ -161,5 +161,18 @@ func WriteToContentJS(entries []entry) error {
 	}
 	fmt.Fprintf(fileHandle, "]\n")
 
+	// let tags = {
+	//   Keys: function() {
+	//     return [
+	//       <TAG>,
+	//       ...
+	//     ]
+	//   },
+	//   <TAG>: [
+	//     <ENTRY-ID>,
+	//     ...
+	//   ],
+	// }
+
 	return nil
 }
