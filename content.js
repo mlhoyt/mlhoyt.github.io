@@ -185,8 +185,6 @@ content = [
   new ContentEntry(1564075509, "HashiCorp Terraform 0.12 Preview: Conditional Operator Improvements and Conditionally Omitted Arguments", []),
   new ContentEntry(1564075484, "AWS gets a chatbot | TechCrunch", []),
   new ContentEntry(1563975516, "Asciidoctor", []),
-  new ContentEntry(1563891317, "Mizuno Wave Rider 22 Knit | Zappos.com", []),
-  new ContentEntry(1563891289, "Mizuno Wave Rider 22 | Zappos.com", []),
   new ContentEntry(1563561324, "Use jq to filter objects list with regex - Today I Learned", []),
   new ContentEntry(1563370867, "Type Constraints - Configuration Language - Terraform by HashiCorp", []),
   new ContentEntry(1562905502, "Actions, Resources, and Condition Keys for AWS Services - AWS Identity and Access Management", []),
