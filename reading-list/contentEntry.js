@@ -15,11 +15,11 @@ class ContentEntry {
   }
 
   ToHTMLListItem() {
-    // TODO: How to show the list of tags?
     return [
       "<li type=none>",
       this.TimeStamp(),
       "<a href=\"content/"+this._entryID+"/entry.md\">"+this._title+"</a>",
+      (this._tags).map(function(item, index){return "<span class=\"tag\">"+item+"</span>"}).join(""),
       "</li>",
     ].join(" ")
   }
