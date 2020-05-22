@@ -1,4 +1,8 @@
 # -*- makefile -*-
 
 build:
-	go run ./utils/build-content-js/main.go ./content
+	cd ./utils/build-content-js/ && \
+	go run . \
+		--source=../../source \
+		--content-html=../../content \
+		--content-js=../../content.js
