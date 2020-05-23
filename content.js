@@ -1,4 +1,5 @@
 content = [
+  new ContentEntry(1590186773, "Software Testing Terminology and Defintions", ["testing"]),
   new ContentEntry(1590171708, "HOW-TO extensible software design", ["extensible"]),
   new ContentEntry(1589917894, "lexi-lambda foldl versus foldr explanation", []),
   new ContentEntry(1589917893, "GraphQL | A query language for your API", []),
