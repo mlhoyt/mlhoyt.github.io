@@ -1,4 +1,5 @@
 content = [
+  new ContentEntry(1590171708, "HOW-TO extensible software design", ["extensible"]),
   new ContentEntry(1589917894, "lexi-lambda foldl versus foldr explanation", []),
   new ContentEntry(1589917893, "GraphQL | A query language for your API", []),
   new ContentEntry(1589907434, "Automate Infrastructure Provisioning Workflows with the GitHub Action for Terraform", []),
