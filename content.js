@@ -21,6 +21,7 @@ content = [
   new ContentEntry(1586988165, "Storager - Google Docs", []),
   new ContentEntry(1586973502, "adventures in uncertainty: Towards Faster Iteration in Industrial Haskell", []),
   new ContentEntry(1586549168, "Parse, don’t validate", []),
+  new ContentEntry(1585975260, "github.com:data61/fp-course.git", ["FP"]),
   new ContentEntry(1585955119, "data61/fp-course: Functional Programming Course", []),
   new ContentEntry(1585774683, "Curried Functions - Computerphile - YouTube", []),
   new ContentEntry(1585762376, "StackEdit – In-browser Markdown editor", []),
