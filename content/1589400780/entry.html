@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+  </head>
+  <body>
+    <h1>Parse, Don&rsquo;t Validate</h1>
+    
+    <p class="meta">2020-05-13</p>
+    <p class="meta">
+    <span class="tag">FP</span>
+    </p>
+    
+    <p><a href="https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/">lexi-lambda Blog: Parse, Don&rsquo;t Validate</a></p>
+    
+    <blockquote>
+    <p>&rdquo;&hellip; strengthening the type of the argument [&hellip;] instead of weakening the type of its result&rdquo;</p>
+    </blockquote>
+    
+    <p>In a way this allows the compiler to do more work because you cannot use the
+    function if you cannot get to the stronger type of the argument.</p>
+    
+    <p>As opposed to the developer doing more work handling the potential weaker
+    states of the result.</p>
+    
+    <blockquote>
+    <p>&rdquo;&hellip; a refinement of the input type that preserves the knowledge gained in the type system.
+    Both of these functions check the same thing, but [&hellip;] gives the caller access to the
+    information it learned, while [&hellip;] just throws it away.&rdquo;</p>
+    </blockquote>
+    
+    <p>Parsing is a transformation and that transformation can add information gained
+    during the process yielding a stronger resulting type.</p>
+    
+    <p>Validation yields a point-in-time exception (or not) after which the validated
+    type is no more meaningful than before &ndash; and is just as capable of containing
+    an invalid value as a valid value.</p>
+    
+  </body>
+</html>

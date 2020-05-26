@@ -5,6 +5,7 @@ content = [
   new ContentEntry(1589917893, "GraphQL | A query language for your API", []),
   new ContentEntry(1589907434, "Automate Infrastructure Provisioning Workflows with the GitHub Action for Terraform", []),
   new ContentEntry(1589907429, "Increasing Developer Velocity in the Cloud Operating Model", []),
+  new ContentEntry(1589400780, "Parse, Don't Validate", ["FP"]),
   new ContentEntry(1589027336, "Chalmers Seminars on Functional Programming", []),
   new ContentEntry(1588971807, "Building resilient architecture using change-driven design | CircleCI", []),
   new ContentEntry(1588809928, "The complete guide to Go net/http timeouts", []),
