@@ -1,4 +1,5 @@
 content = [
+  new ContentEntry(1590932498, "WebAssembly · golang/go Wiki · GitHub", ["wasm", "golang"]),
   new ContentEntry(1590186773, "Software Testing Terminology and Defintions", ["testing"]),
   new ContentEntry(1590171708, "HOW-TO extensible software design", ["extensible"]),
   new ContentEntry(1589917894, "lexi-lambda foldl versus foldr explanation", ["FP"]),
