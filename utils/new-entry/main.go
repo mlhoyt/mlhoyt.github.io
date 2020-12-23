@@ -23,13 +23,9 @@ func init() {
 func main() {
 	flag.Parse()
 
-	if linkFlag == "" {
-		log.Fatal("must provide --link=<STRING> option")
-	}
-
 	now := time.Now()
 
-	srcPath := filepath.Join("./source", strconv.FormatInt(now.Unix(), 10))
+	srcPath := filepath.Join("..", "..", "source", strconv.FormatInt(now.Unix(), 10))
 	if err := os.MkdirAll(srcPath, 0755); err != nil {
 		log.WithError(err).Fatal("failed creating entry source directory")
 	}
@@ -38,12 +34,15 @@ func main() {
 	buffer.WriteString("---\n")
 	buffer.WriteString(fmt.Sprintf("title: %s\n", titleFlag))
 	buffer.WriteString(fmt.Sprintf("date: %s\n", now.Format("2006-01-02T15:04:05-07:00")))
-	buffer.WriteString("tags:\n")
+	buffer.WriteString("tags:\n") // whitespace separated strings
 	buffer.WriteString("---\n")
 	buffer.WriteString("\n")
 	buffer.WriteString(fmt.Sprintf("[%s](%s)\n", titleFlag, linkFlag))
 
-	if err := ioutil.WriteFile(srcPath+"/entry.md", []byte(buffer.String()), 0644); err != nil {
+	srcFile := filepath.Join(srcPath, "entry.md")
+	if err := ioutil.WriteFile(srcFile, []byte(buffer.String()), 0644); err != nil {
 		log.WithError(err).Fatal("failed creating entry markdown file")
 	}
+
+	fmt.Printf("%s\n", srcFile)
 }

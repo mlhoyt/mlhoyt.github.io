@@ -1,5 +1,9 @@
 # -*- makefile -*-
 
+new-entry:
+	cd ./utils/new-entry/ && \
+	go run .
+
 build:
 	cd ./utils/build-content-js/ && \
 	go run . \
